@@ -24,28 +24,20 @@ li {
 }
 
 .main {
-  /* Change the top & bottom padding to 100px, and left & right padding to 80px */
-  padding : 100px 80px;
-  
+  padding: 100px 80px;
 }
 
-/* Change the font-size of <h1> tags within copy-container */
-h1{
-  font-size:140px;
+.copy-container h1 {
+  font-size: 140px;
 }
 
-
-/* Change the font-size of <h2> tags within copy-container */
-h2{
-  font-size:60px;
+.copy-container h2 {
+  font-size: 60px;
 }
 
-
-/* Change the color of <span> tags within copy-container */
-span{
+.copy-container span {
   color: #ff4a4a;
 }
-
 
 .footer {
   background-color: #2f5167;
