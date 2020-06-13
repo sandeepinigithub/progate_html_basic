@@ -4,9 +4,6 @@ body {
 
 li {
   list-style: none;
-  /* Move the following 2 lines to around line 25 */
-  float: left;
-  padding: 33px 20px;
 }
 
 .header {
@@ -21,15 +18,51 @@ li {
   padding: 20px 40px;
 }
 
-/* Add CSS for <li> tags within header-list */
-
-
-.main {
-  background-color: #bdf7f1;
-  height: 600px;
+.header-list li {
+  float: left;
+  padding: 33px 20px;
 }
 
+.main {
+  /* Change the top & bottom padding to 100px, and left & right padding to 80px */
+  padding : 100px 80px;
+  
+}
+
+/* Change the font-size of <h1> tags within copy-container */
+h1{
+  font-size:140px;
+}
+
+
+/* Change the font-size of <h2> tags within copy-container */
+h2{
+  font-size:60px;
+}
+
+
+/* Change the color of <span> tags within copy-container */
+span{
+  color: #ff4a4a;
+}
+
+
 .footer {
-  background-color: #ceccf3;
-  height: 270px;
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
 }
