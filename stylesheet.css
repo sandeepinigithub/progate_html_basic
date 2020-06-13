@@ -69,7 +69,7 @@ li {
 input,textarea{
   width:400px;
   margin-top:10px;
-  margin-bottom:30;
+  margin-bottom:30px;
   padding:20px;
   font-size:18px;
   border: 1px solid #dee7ec;
@@ -79,7 +79,7 @@ input,textarea{
 /* Add CSS for contact-submit */
 .contact-submit{
   background-color:#dee7ec;
-  font-color:#889eab
+  color:#889eab
 }
 
 .footer {
